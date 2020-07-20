@@ -1,0 +1,122 @@
+body{
+   background-color: #f8f8f8; 
+}
+
+.menu li{
+    list-style-type: none;
+    font-family: Monotype Corsiva;
+    font-size: 35px; 
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+header{
+    background-image: url(../img/Pink-flowers-beautiful-rose-romance_1600x900.jpg);
+    background-image: opacity 0,8;
+    background-size: 100%;
+}
+
+.product{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.description{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.details{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.features li{
+    color:deeppink;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: sans-serif;
+    list-style-image: url(../img/59953-228x228.jpg);
+}
+
+input, textarea {
+    color: cornflowerblue;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+.email {
+    color: red;
+    border-color: red;
+    background-color: bisque;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial; 
+}
+
+.button {
+    color: black;
+    font-size: 12px;
+    font-style: normal;
+    width: 100px;
+    height: 25px;
+}
+
+.product-description{
+    outline: 3px solid #BA55D3;
+}
+
+.menu li a:hover{
+    color: deeppink;
+}
+
+input{
+    text-transform: capitalize;
+}
+
+.logo {
+    float: left;
+    padding-top: 15px;
+}
+
+table, td{
+    border: 3px solid deeppink;
+    border-collapse: collapse;
+    
+}
+
+td, tr {
+    height:50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product-description:hover{
+    outline: 0px;
+}
+
+.description:first-letter,.characteristics:first-letter,.details:first-letter{
+    font-size: 36px;
+    font-family: Monotype Corsiva;
+    color: deeppink;
+}
+
+.first{
+    line-height: 5;
+}
